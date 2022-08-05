@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.sprite-1 {
+    margin: 0 auto;
+    left: 0;
+    top: 0;
+    width: 160px;
+    height: 282px;
+    background-image: url("../img/anim-1.jpeg");
+    background-repeat: no-repeat;
+    animation-name: walk-1;
+    background-position: 0 0;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(8);
+}
+
+@keyframes walk-1 {
+
+    100% {
+        background-position: -1280px 0;
+    }
+}

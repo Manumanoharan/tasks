@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#bg-img {
+    position: absolute;
+    transform: scale(1.5);
+    left: 114px;
+}
+
+#blue-1 {
+    position: absolute;
+    width: 299px;
+    opacity: 0.8;
+    left: -79px;
+    top: -223px;
+    border: 2px solid white;
+    background-color: #122a55;
+    height: 147px;
+    transform: rotate(-39deg);
+
+}
+
+
+#blue-2 {
+    position: absolute;
+    width: 299px;
+    opacity: 0.8;
+    left: 129px;
+    bottom: -183px;
+    border: 2px solid white;
+    background-color: #122a55;
+    height: 147px;
+    transform: rotate(-39deg);
+
+}
+
+#text-1 {
+
+    transition: all 3s;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    top: 8px;
+    font-size: 26px;
+    transform: translate(-131px);
+    color: white;
+}
+
+#text-1,#text-2.text {
+    animation: text-anim 0.7s;
+    transform: translate(13px)
+}
+
+@keyframes text-anim {
+    0% {
+        transform: translate(-131px);
+    }
+
+    90% {
+        transform: translate(22px);
+    }
+
+    100% {
+        transform: translate(13px);
+    }
+}
+
+#text-2 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    top: 31px;
+    transform: translate(-131px);
+    color: white;
+}
+
+
+@keyframes text-anim1 {
+    0% {
+        transform: translate(-131px);
+    }
+
+    90% {
+        transform: translate(22px);
+    }
+
+    100% {
+        transform: translate(13px);
+    }
+}
+
+#text-3 {
+    position: absolute;
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 17px;
+    top: 63px;
+    left: 14px;
+    opacity: 0;
+    color: white;
+}
+
+#logo {
+    position: absolute;
+    right: 9px;
+    top: 9px;
+    transform: translateY(-25px);
+}
+
+#btn {
+    position: absolute;
+    bottom: 28px;
+    height: 26px;
+    right: 10px;
+    width: 0;
+    /* z-index: 1; */
+}
+
+#cta {
+    position: absolute;
+    right: -3px;
+    bottom: 20px;
+    height: 28px;
+    font-size: 12px;
+    width: 87px;
+    transform-origin: right;
+    transform: scale(0, 1);
+}
+
+#site {
+    position: absolute;
+    bottom: 4px;
+    right: 8px;
+    font-size: 14px;
+    color: white;
+    transform: translateY(18px);
+}
+
+
+/* #id {
+        position: absolute;
+        font-size: 11px;
+        bottom: 28px;
+        height: 26px;
+        right: 10px;
+        background-color: white;
+        width: 100px;
+        border-top-left-radius: 45px;
+        transform: scale(0,0);
+        transform-origin: right;
+} */

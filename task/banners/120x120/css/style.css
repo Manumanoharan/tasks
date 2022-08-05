@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box  ;
+}
+.sprite{
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;  
+}
+.anim{
+    position: relative;
+   height:120px;
+   width: 2880px;
+    animation-name: walk;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-timing-function: steps(24); 
+   transform: translateX(0);
+   
+}
+.spr{
+    
+} 
+#spr-1{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+#spr-2{
+    position: absolute;
+    top:-120px;
+    left:960px;
+}
+#spr-3{
+    position: absolute;
+    top:-240px;
+    left:1920px;
+}
+#spr-4{
+    position: absolute;
+    top:-360px;
+    left:2040px;
+}
+/* .sprite{
+   
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    background-image: url("../img/pngwin.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    animation-name: walk;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(8);
+  
+}
+*/
+ @keyframes walk{
+  
+    100%{
+        transform: translateX(-2880px); 
+    }
+} 
+

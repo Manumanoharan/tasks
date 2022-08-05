@@ -1,0 +1,18 @@
+#name{
+    position: relative;
+    left:600px;
+}
+.ban-1{
+display: flex;
+justify-content: space-between;
+}
+
+.btn{
+    position: relative;
+    left: 350px;
+    width: 89px;
+    height: 25px;
+    background-color: #a686c3;
+    border-color: transparent;
+    border-radius: 18px;
+}

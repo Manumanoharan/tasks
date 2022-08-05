@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    position: relative;
+    width: 160px;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: solid 1px;
+    animation-iteration-count: infinite;
+}
+
+#img1 {
+    position: absolute;
+    top: 35px;
+    right: -2px;
+    transform: rotateY(90deg);
+    transform-origin: right;
+    opacity: 0;
+}
+
+#img2 {
+    position: absolute;
+    bottom: 0;
+    left: -2px;
+    opacity: 0;
+    transform: rotateY(90deg);
+    transform-origin: left;
+}
+
+#logo {
+    left: 68px;
+    top: 17px;
+    position: absolute;
+    /* transform: scale(0); */
+    opacity: 0;
+
+}
+
+#text {
+    position: absolute;
+    top: 93px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#copy {
+    position: absolute;
+    font-size: 20px;
+    left: 50px;
+    transform: rotateX(90deg);
+    transform-origin: top;
+    color: #fff;
+    opacity: 0;
+
+}
+
+#copy1 {
+    position: absolute;
+    top: 28px;
+    left: 23px;
+    white-space: nowrap;
+    transform:translateX(-140px);
+    color: rgb(216, 88, 42);
+    font-size: 15px;
+    opacity: 0;
+}
+
+#copy2 {
+    position: absolute;
+    font-size: 20px;
+    top: 53px;
+    left: 46px;
+    transform:translateX(112px);
+    color: #fff;
+    opacity: 0;
+
+}
+
+
+#copy3 {
+    position: relative;
+    top: 117px;
+    text-align: right;
+    color: #fff;
+    left: 9px;
+    font-size: 14px;
+    transform: translateY(-50px);
+    opacity: 0;
+
+}
+
+
+
+#circle {
+    position: absolute;
+    top: 314px;
+
+    left: 56px;
+    opacity: 0;
+
+}
+
+#button {
+    position: absolute;
+    bottom: 55px;
+    right: 17px;
+    transform: scale(0);
+
+}
+
+#site {
+    position: absolute;
+    bottom: 46px;
+    right: 20px;
+    opacity: 0;
+    color: #fff;
+    font-size: 17px;
+
+
+}
